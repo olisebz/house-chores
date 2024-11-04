@@ -1,4 +1,4 @@
-package ch.oz.chores;
+package ch.oz.chores.controller;
 
 import jakarta.ws.rs.GET;
 import jakarta.ws.rs.Path;
@@ -11,6 +11,6 @@ public class Chores {
     @GET
     @Produces(MediaType.TEXT_PLAIN)
     public String hello() {
-        return "Hello from Quarkus REST";
+        return "Hello from my app";
     }
 }
